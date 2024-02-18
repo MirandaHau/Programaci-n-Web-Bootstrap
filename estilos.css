@@ -1,7 +1,7 @@
 /* Estilo para h1 con Google Fonts */
 h1 {
     font-family: 'Noto Sans KR', sans-serif;
-    color: #a5324d ;
+    color: #a5324d;
     text-align: center;
 }
 
@@ -16,13 +16,31 @@ h2 {
     color: #3144A2;
 }
 
-/*Para el botón de Youtube*/
-.youtube-icon {
-    font-size: 2rem; /* Ajusta el tamaño del icono */
-    color: rgb(302, 48, 48); /* Cambia el color del icono a rojo */
-    padding: 0.5rem; /* Agrega algo de espacio alrededor del icono */
-    border: none; /* Elimina el borde, si es necesario */
-    background-color: transparent; /* Asegura que el fondo sea transparente */
-    display: inline-block; /* Permite aplicar padding correctamente */
-    text-decoration: none; /* Elimina el subrayado del enlace */
+/* Botón de Youtube */
+.btn-danger {
+    font-size: 1rem;
+    color: #fff; 
+    background-color: rgb(302, 48, 48); 
+    border: none; 
+}
+
+.btn-danger:hover {
+    color: #fff; 
+    background-color: #d11a2a;
+}
+
+.bi-youtube {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.carousel-item img {
+    max-height: 1000px; /* Limita la altura de las imágenes del carrusel */
+    object-fit: cover; 
+}
+
+/* Estilos para mejorar la legibilidad y presentación de tu contenido */
+ol, p {
+    font-size: 1.1rem; /* Tamaño de fuente ligeramente mayor para facilidad de lectura */
+    margin-bottom: 1rem; /* Espaciado entre elementos para evitar que se vean apretados */
 }
