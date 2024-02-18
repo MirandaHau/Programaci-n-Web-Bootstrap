@@ -1,0 +1,28 @@
+/* Estilo para h1 con Google Fonts */
+h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #a5324d ;
+    text-align: center;
+}
+
+/* Segundo Estilo para toda la página */
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #dce5fd;
+    color: #221A4C;
+}
+
+h2 {
+    color: #3144A2;
+}
+
+/*Para el botón de Youtube*/
+.youtube-icon {
+    font-size: 2rem; /* Ajusta el tamaño del icono */
+    color: rgb(302, 48, 48); /* Cambia el color del icono a rojo */
+    padding: 0.5rem; /* Agrega algo de espacio alrededor del icono */
+    border: none; /* Elimina el borde, si es necesario */
+    background-color: transparent; /* Asegura que el fondo sea transparente */
+    display: inline-block; /* Permite aplicar padding correctamente */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
